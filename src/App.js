@@ -14,6 +14,7 @@ function App() {
         <p>
           You clicked me {count} times!
         </p>
+        <button onClick={() => setCount(count + 1)}>UP the COUNT!</button>
       </header>
     </div>
   );
